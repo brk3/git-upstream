@@ -33,7 +33,8 @@ from git_upstream.tests import base
 class TestGetSubcommands(testtools.TestCase):
     """Test case for get_subcommands function"""
 
-    _available_subcommands = ('help', 'import', 'supersede', 'drop')
+    _available_subcommands = ('help', 'import', 'supersede', 'drop',
+                              'carrying')
 
     def test_available_subcommands(self):
         """Test available subcommands"""
